@@ -1,0 +1,76 @@
+/* CSS untuk tampilan luar angkasa */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.bio {
+    max-width: 60%;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #f4e04d;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.1em;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #f4e04d;
+}
+
+.photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #f4e04d;
+}
+
+/* Efek luar angkasa */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('space-background.jpg') no-repeat center center/cover;
+    opacity: 0.2;
+    z-index: -1;
+}
