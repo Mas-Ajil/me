@@ -16,6 +16,10 @@
     .navbar-nav .nav-link.active {
       color: #e63946;
     }
+    .navbar-brand img {
+      width: 30px; /* Atur ukuran gambar logo */
+      height: 30px;
+    }
     .main-section {
       align-items: center;
       justify-content: center;
