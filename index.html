@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="icon" type="image/png" href="assets/fotodiri.png">
+  <!-- Bootstrap 5 CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/features/">
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"> 
+
+
+
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+        </symbol>
+        <symbol id="twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+        </symbol>
+        <symbol id="linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+        </symbol>
+      </svg>
+      
+  <!-- Header Navigation -->
+  <header class="container-fluid sticky-top">
+    <nav class="navbar navbar-expand-lg  navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="assets/fotodiri.png" alt="Logo" class="rounded-circle">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" >About</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link" href="#experience" >Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio" >Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" >Contact</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- section home -->
+ <div class="container">
+  <section class="main-section container" id="main-content">
+    <div class="row mb-6">
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <div class="text">
+          <h1 style="font-size: 300%;">I'm <span>'Azizil'an </span>Sarina Putra</h1>
+          <p>This is Azizil Network Engineer, Web Development and Cyber Security Blue Team Operation Center.</p>
+          <a href="#about" class="btn btn-custom">Learn More</a>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <img src="assets/fotodiri.png" alt="Jems Kemerun" class="img-fluid rounded">
+      </div>
+    </div>
+  </section>
+
+  <!-- section about me -->
+
+  <section id="about" class="about" >
+    <div class="b-example-divider"></div>
+    <div class="container px-5 py-6" id="hanging-icons">
+      <h2 class="pb-2 border-bottom">About Me</h2>
+      <div class="row py-5">
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+          </div>
+          <div>
+            <p class="justify-text">Saya saat ini menempuh studi di Program Studi Teknik Informatika di Universitas Muhammadiyah Surakarta, di mana saya memilih konsentrasi Jaringan Komputer. Minat saya terhadap teknologi komputer dimulai sejak lama, dan melalui studi ini, saya mendalami berbagai konsep penting seperti pengelolaan infrastruktur jaringan, keamanan siber, dan cara melindungi sistem dari ancaman eksternal. Memahami jaringan komputer memberi saya fondasi yang kuat untuk mengelola komunikasi dan data dalam skala yang lebih besar, serta memastikan keamanannya.
+              <br>
+              Meskipun fokus utama saya adalah jaringan komputer, saya juga memiliki ketertarikan yang mendalam pada pengembangan web. Salah satu framework favorit saya dalam mengembangkan aplikasi web adalah Laravel, karena memberikan fleksibilitas dan kemudahan dalam membangun aplikasi berbasis PHP yang efisien dan modern. Melalui Laravel, saya dapat mengimplementasikan berbagai konsep yang saya pelajari di bidang jaringan, seperti keamanan web dan pengelolaan data yang efisien.
+              <br>
+              Penggabungan antara pengetahuan jaringan komputer dan kemampuan dalam pengembangan web memungkinkan saya untuk memiliki pemahaman yang lebih komprehensif dalam dunia teknologi. Saya percaya bahwa kombinasi keterampilan ini akan sangat bermanfaat di masa depan, baik dalam menghadapi tantangan keamanan siber maupun dalam menciptakan solusi web yang inovatif. Dengan terus mengasah keterampilan di kedua bidang ini, saya berkomitmen untuk memberikan kontribusi positif dalam industri teknologi yang terus berkembang.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="b-example-divider"></div>
+  </section>
+
+  <!--section experience  -->
+<section id="experience" class="experience">
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom">Experience</h2>
+  
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/experience/ex1.png'); background-size: contain; background-position: center; background-repeat: no-repeat;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: black;">Himpunan Mahasiswa Teknik Informatika</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="assets/logo/himatif.png"  width="32" height="32" class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                  <small>Surakarta</small>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/experience/ex2.jpg'); background-size: contain; background-position: center; background-repeat: no-repeat;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: black;">Dewan Perwakilan Mahasiswa</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="assets/logo/dpm.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                  <small>Surakarta</small>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/experience/ex3.jpg'); background-size: contain; background-position: center; background-repeat: no-repeat;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: black;">Studi Independent Batch 6</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="assets/logo/kampusmerdeka.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                  <small>Surakarta</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>  
+</section>
+
+
+  <!-- section portfolio -->
+<section id="portfolio" class="portfolio text-center ">
+    <div class="row ">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h2 class="pb-2 border-bottom">Portofolio</h2>
+      </div>
+    </div>
+  
+
+  <div class="album py-5  bg-light">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="assets/portfolio/portoWeb1/1.png" alt="porto1" class="card-img">
+
+            <div class="card-body">
+              <p class="card-text justify-text">Website Design and Development: This project will involve designing a responsive and attractive user interface for an e-commerce website. The design should make it easy for users to find and select the sports bike products they are looking for.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">1 year</small>
+                <a href="assets/portfolio/portoWeb1/porto1.pdf" class="btn btn-custom" style="size: 50p;">Show File</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="assets/portfolio/portoUi3/1.png" alt="porto1" class="card-img">
+
+            <div class="card-body">
+              <p class="card-text justify-text"></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">1 year</small>
+                <a href="assets/portfolio/portoUi3/full.png" class="btn btn-custom" style="size: 50p;">Show File</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="assets/portfolio/portoUi4/1.png" alt="porto1" class="card-img">
+
+            <div class="card-body">
+              <p class="card-text justify-text"></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">1 year</small>
+                <a href="assets/portfolio/portoUi4/ui.pdf" class="btn btn-custom" style="size: 50p;">Show File</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="assets/portfolio/portoWeb2/1.png" alt="porto1" class="card-img">
+
+            <div class="card-body">
+              <p class="card-text justify-text">I have implemented pfSense and OPNsense for internal and external firewalls. The internal firewall is used for network segmentation, while the external firewall focuses on perimeter protection, including blocking malicious websites and packet filtering.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">5 month</small>
+                <a href="assets/portfolio/portoWeb2/Firewall.pdf" class="btn btn-custom" style="size: 50p;">Show File</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- section contact -->
+<section id="contact" class="contact">
+<div  class="container">
+  <div class="contact-wrapper">
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <form action="https://formspree.io/f/xgvwbgkn" method="POST">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="no" class="form-label">No</label>
+          <input type="text" class="form-control" id="no" name="no" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+
+    </div>
+  </div>
+</div>
+
+</section>
+</div>
+
+
+
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top ">
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 mb-md-0 text-muted">&copy; Build By Azizil. 2024</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="https://www.twitter.com"><svg class="bi" width="20" height="20"><use xlink:href="#twitter"/></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://instagram.com/mas.azizil"><svg class="bi" width="20" height="20"><use xlink:href="#instagram"/></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/azizilansarinaputra"><svg class="bi" width="20" height="20"><use xlink:href="#linkedin"/></svg></a></li>
+        </ul>
+    </footer>
+  </div>
+
+  
+
+    <!-- Symbol -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  
+  <symbol id="toggles2" viewBox="0 0 16 16">
+    <path d="M9.465 10H12a2 2 0 1 1 0 4H9.465c.34-.588.535-1.271.535-2 0-.729-.195-1.412-.535-2z"/>
+    <path d="M6 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 1a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm.535-10a3.975 3.975 0 0 1-.409-1H4a1 1 0 0 1 0-2h2.126c.091-.355.23-.69.41-1H4a2 2 0 1 0 0 4h2.535z"/>
+    <path d="M14 4a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"/>
+  </symbol>
+  <symbol id="geo-fill" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"/>
+  </symbol>
+</svg>
+
+
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
